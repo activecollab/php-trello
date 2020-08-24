@@ -1,5 +1,5 @@
 {
-    "name": "mattzuba/php-trello",
+    "name": "activecollab/php-trello",
     "type": "library",
     "description": "PHP-based Trello API Wrapper",
     "keywords": ["trello", "api"],
@@ -13,11 +13,6 @@
             "role": "Developer"
         }
     ],
-    "support": {
-        "email": "matt.zuba@gmail.com",
-        "issues": "https://bitbucket.org/mattzuba/php-trello/issues",
-        "source": "https://bitbucket.org/mattzuba/php-trello/src"
-    },
     "require": {
         "php": ">=5.3.0"
     },
@@ -25,8 +20,5 @@
         "psr-0": {
             "Trello\\": "src/"
         }
-    },
-    "archive": {
-        "exclude": ["/tests", ".hg*", "phpunit.xml"]
     }
 }
